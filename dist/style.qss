@@ -1,0 +1,90 @@
+QWidget {
+    background-color: #f0f0f0;
+    font-family: "Microsoft YaHei", Arial, sans-serif; /* 设置字体为微软雅黑 */
+    font-size: 14px;
+    font-weight: bold; /* 设置字体为粗体 */
+    color: #333333;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #4CAF50; /* Vert vif */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Arial, sans-serif; /* 设置字体为微软雅黑 */
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #45A049; /* Vert légèrement plus foncé pour le survol */
+}
+QPushButton:pressed {
+    background-color: #388E3C; /* Vert encore plus foncé pour le clic */
+}
+
+
+/* Line edits */
+QLineEdit {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px; /* 增加内边距使输入框更大 */
+    background-color: white;
+    font-size: 18px; /* 增大字体大小 */
+    font-family: "Microsoft YaHei", Arial, sans-serif; /* 设置字体 */
+    font-weight: bold; /* 设置字体为粗体 */
+}
+QLineEdit:focus {
+    border: 1px solid #4CAF50;
+}
+
+/* Labels */
+QLabel {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Arial, sans-serif; /* 设置字体为微软雅黑 */
+    font-weight: bold;
+    color: #333333;
+}
+
+/* List widget */
+QListWidget {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Arial, sans-serif; /* 设置字体为微软雅黑 */
+    font-weight: bold;
+}
+QListWidget::item {
+    padding: 5px;
+}
+QListWidget::item:selected {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* ComboBox */
+QComboBox {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Arial, sans-serif; /* 设置字体为微软雅黑 */
+    font-weight: bold;
+}
+QComboBox:focus {
+    border: 1px solid #4CAF50;
+}
+QComboBox::drop-down {
+    border-left: 1px solid #cccccc;
+}
+
+/* MessageBox */
+QMessageBox {
+    background-color: #ffffff;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Arial, sans-serif; /* 设置字体为微软雅黑 */
+    font-weight: bold;
+}

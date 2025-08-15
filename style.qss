@@ -1,0 +1,107 @@
+/* Global Style */
+QWidget {
+    background-color: #e8eaf6; /* Couleur de fond douce */
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #4CAF50, stop:1 #66BB6A); /* Dégradé vert */
+    color: white;
+    border: 1px solid #388E3C;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Ombre */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transition douce */
+}
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #45A049, stop:1 #5DBB5A); /* Dégradé plus foncé */
+    transform: scale(1.05); /* Légère mise en avant */
+}
+QPushButton:pressed {
+    background-color: #388E3C; /* Couleur plus foncée */
+    transform: scale(0.95); /* Réduction légère */
+}
+
+/* Line edits */
+QLineEdit {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: white;
+    font-size: 16px;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    font-weight: bold;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1); /* Ombre interne */
+    transition: border-color 0.3s ease;
+}
+QLineEdit:focus {
+    border: 1px solid #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Effet lumineux */
+}
+
+/* Labels */
+QLabel {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* List widget */
+QListWidget {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Ombre externe */
+}
+QListWidget::item {
+    padding: 8px;
+    border-radius: 3px;
+}
+QListWidget::item:selected {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #388E3C;
+}
+
+/* ComboBox */
+QComboBox {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Ombre externe */
+    transition: border-color 0.3s ease;
+}
+QComboBox:focus {
+    border: 1px solid #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Effet lumineux */
+}
+QComboBox::drop-down {
+    border-left: 1px solid #cccccc;
+    background-color: #f0f0f0;
+}
+
+/* MessageBox */
+QMessageBox {
+    background-color: #ffffff;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Ombre externe */
+}

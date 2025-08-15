@@ -1,0 +1,26 @@
+[
+    {
+        "Nom de l'entreprise": "iti informatique",
+        "Adresse": "QWQ",
+        "Adresse_cp": "QW",
+        "Adresse_ville": "W",
+        "Contact": "QWQ",
+        "Num_TVA": "ZZZZZ"
+    },
+    {
+        "Nom de l'entreprise": "okok",
+        "Adresse": "QWQ",
+        "Adresse_cp": "QW",
+        "Adresse_ville": "W",
+        "Contact": "QWQ",
+        "Num_TVA": ""
+    },
+    {
+        "Nom de l'entreprise": "ababe",
+        "Adresse": "QWQ",
+        "Adresse_cp": "QW",
+        "Adresse_ville": "W",
+        "Contact": "QWQ",
+        "Num_TVA": ""
+    }
+]
